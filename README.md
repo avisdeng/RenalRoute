@@ -14,7 +14,7 @@ RenalRoute is a MOCK project that aims to make travel possible for dialysis pati
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
 
 ##  :beginner: About
-Add a detailed introduction about the project here, everything you want the reader to know.
+RenalRoute is a one-stop travel planning platform designed specifically for dialysis patients, making travel safe and stress-free. It connects patients with a global network of dialysis centers by automatically scheduling treatment sessions and handling appointments so they can focus on enjoying their journey. By integrating smart travel planning, easy booking, and direct access to patient reviews and local doctor support, RenalRoute empowers patients to explore new places with confidence and peace of mind.
 
 ## :zap: Usage
 To use this project, you will have to configure your Google Gemini API Key, and deploy the project onto a webserver.
@@ -25,7 +25,7 @@ Everyone is welcome to make contribution to this project!
 
 ## :cherry_blossom: Community
 
-If it's open-source, talk about the community here, ask social media links and other links.
+follow us on [facebook]()
 
  ###  :fire: Contribution
 
