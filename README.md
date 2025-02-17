@@ -1,5 +1,5 @@
 # RenalRoute
-RenalRoute makes travel possible for dialysis patients—safe, simple, and stress-free! We created this for the EmpHack event.
+RenalRoute is a project that aims to make travel possible for dialysis patients—safe, simple, and stress-free! We created this project for the EmpHack event.
 
 ## :ledger: Index
 
@@ -9,7 +9,6 @@ RenalRoute makes travel possible for dialysis patients—safe, simple, and stres
 - [Community](#cherry_blossom-community)
   - [Contribution](#fire-contribution)
   - [Branches](#cactus-branches)
-  - [Guideline](#exclamation-guideline)  
 - [FAQ](#question-faq)
 - [Gallery](#camera-gallery)
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
@@ -19,7 +18,7 @@ Add a detailed introduction about the project here, everything you want the read
 
 ## :zap: Usage
 To use this project, you will have to configure your Google Gemini API Key, and deploy the project onto a webserver.
-Demo Site:[here]()
+Demo Site: [here]()
 
 ##  :wrench: Development
 Everyone is welcome to make contribution to this project!
@@ -68,7 +67,8 @@ If it's open-source, talk about the community here, ask social media links and o
 After this, changes will be merged.
 
 ## :question: FAQ
-You can optionally add a FAQ section about the project.
+Q: What programming language is used for this project?
+A: Mainly html and java
 
 ##  :camera: Gallery
 
