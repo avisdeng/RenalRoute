@@ -1,5 +1,5 @@
 # RenalRoute
-RenalRoute is a project that aims to make travel possible for dialysis patients—safe, simple, and stress-free! We created this project for the EmpHack event.
+RenalRoute is a MOCK project that aims to make travel possible for dialysis patients—safe, simple, and stress-free! We created this project for the EmpHack event.
 
 ## :ledger: Index
 
