@@ -298,8 +298,9 @@ public class DataUtil {
 
          contents.add(parts);
 
+         // Construct the gemini params
          geminiParams.putOpt("contents",contents);
-
+         // Get the result from Gemini API
          HttpResponse httpResponse = HttpRequest.post("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBNEzEvpzg8qkm4N79PQV1CJlXmG8J_MP8")
                  .setHttpProxy("127.0.0.1",7897)
                  .header("Content-Type", "application/json")
@@ -316,6 +317,7 @@ public class DataUtil {
          return Result.success(resultList);
      }
 
+     // Gemini result twreak
      private static String getGeminiText(String geminiResult){
          JSONObject result = JSONUtil.parseObj(geminiResult);
          JSONArray candidates = result.getJSONArray("candidates");
