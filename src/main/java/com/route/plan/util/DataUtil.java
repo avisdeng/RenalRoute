@@ -20,7 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataUtil {
-
+     
+     //Load test dataset from file
      public static List<JSONObject> getDataList() {
          List<JSONObject> dataList = new ArrayList<JSONObject>();
 
@@ -34,6 +35,7 @@ public class DataUtil {
          return dataList;
      }
 
+     // Get the city list from DataList
      public static Result<List<String>> getCityList(){
          List<JSONObject> dataList = getDataList();
          List<String> cityList = List.of();
@@ -47,7 +49,7 @@ public class DataUtil {
          return Result.success(cityList);
      }
 
-
+     // Get the Center info from the selected city
      public static Result<List<JSONObject>> getDataListByCity(String city){
          List<JSONObject> dataList = getDataList();
          List<JSONObject> newDataList = new ArrayList<>();
@@ -62,6 +64,7 @@ public class DataUtil {
          return Result.success(newDataList);
      }
 
+     // Use Google Gemini to match the plan given the criteras
      public static Result<List<JSONObject>> searchPlan(JSONObject params){
 
          String promptTemplate = "";
