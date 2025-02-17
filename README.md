@@ -18,7 +18,7 @@ RenalRoute is a one-stop travel planning platform designed specifically for dial
 
 ## :zap: Usage
 To use this project, you will have to configure your Google Gemini API Key, and deploy the project onto a webserver.
-Demo Site: [here]()
+Demo Site: [here](http://158.101.23.157:8000/RenalRoute/#/)
 
 ##  :wrench: Development
 Everyone is welcome to make contribution to this project!
